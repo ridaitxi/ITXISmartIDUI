@@ -17,7 +17,7 @@
 @implementation ITXIScannerViewController
 
 - (id)init {
-    return [super initWithNibName:@"ITXIScannerViewController" bundle:[NSBundle mainBundle]];
+    return [super initWithNibName:@"ITXIScannerViewController" bundle:[NSBundle bundleWithIdentifier:@"org.cocoapods.ITXISmartIDUI"]];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

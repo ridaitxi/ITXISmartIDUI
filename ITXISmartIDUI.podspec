@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.platform = :ios
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '11.4'
 s.name = "ITXISmartIDUI"
 s.summary = "The UI that we use on top of SmartIDEngine."
 s.requires_arc = true
