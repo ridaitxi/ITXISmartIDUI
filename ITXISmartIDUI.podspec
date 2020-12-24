@@ -6,7 +6,7 @@ s.name = "ITXISmartIDUI"
 s.summary = "The UI that we use on top of SmartIDEngine."
 s.requires_arc = true
 
-s.version = "0.1.1"
+s.version = "0.1.2"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 

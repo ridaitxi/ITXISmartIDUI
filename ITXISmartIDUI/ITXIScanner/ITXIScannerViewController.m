@@ -64,7 +64,7 @@
 
 - (void)setImageName:(NSString *)imageName promptText:(NSString *)promptText andCancelButtonText:(NSString *)cancelButtonText {
     if (imageName != nil) {
-        UIImage *image = [UIImage imageNamed:imageName];
+        UIImage *image = [UIImage imageNamed:imageName inBundle:[NSBundle bundleWithIdentifier:@"org.cocoapods.ITXISmartIDUI"] compatibleWithTraitCollection:nil];
         [self.scanImageView setImage:image];
         [self.secondaryScanImageView setImage:image];
     }
